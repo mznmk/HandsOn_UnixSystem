@@ -1,6 +1,6 @@
-# HandsOn System Programming
+# HandsOn Unix System
 
-HandsOn形式での Unix System Programming の学習記録  
+いろんなハンズオンに取り組みながら、Unix System Programming を学習しようという試みです。  
 
 
 ## Linux System Programming with C
