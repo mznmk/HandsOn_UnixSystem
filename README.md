@@ -7,9 +7,8 @@
 
 Chris Brown 先生の講義です。  
 
-Indronil Banerjee  
-https://www.youtube.com/c/IndronilBanerjee  
 https://www.youtube.com/playlist?list=PLysdvSvCcUhbrU3HhGhfQVbhjnN9GXCq4  
+https://www.pluralsight.com/courses/linux-systems-programming  
 
 
 ## System Programming with Linux
