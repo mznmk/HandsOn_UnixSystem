@@ -9,7 +9,7 @@ int		main()
 
 	if (fork())
 	{
-		// Parent
+		// [ Parent ]
 		printf("parent waiting for child ...\n");
 		wait(&status);
 		if (WIFEXITED(status))
@@ -19,11 +19,19 @@ int		main()
 	}
 	else
 	{
-		// Child
+		// [ Child ]
+
+		// // test1
+		// printf("child running -- PID is %d\n", getpid());
+		// sleep(3);
+		// exit(3);
+
+		// // test2
 		// printf("child running -- PID is %d\n", getpid());
 		// sleep(500);
 		// exit(3);
 
+		// test3
 		printf("child running -- PID is %d\n", getpid());
 		*(int *)0 = 42;
 		sleep(500);
