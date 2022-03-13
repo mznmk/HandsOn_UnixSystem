@@ -74,8 +74,8 @@ https://www.pluralsight.com/courses/linux-systems-programming
 	`dup()`:ファイル記述子 oldfd の複製を作成し、最も小さい未使用のファイル記述子を返す。  
 	`dup2()`: 基本は dup() と同じだがnewfd で指定した番号のファイル記述子を返す。既に open しているファイル記述子を指定した場合は、元の記述子は自動的に close される。
 	```c
-	dup(oldfd);         // ファイルディスクリプターfdを閉じてから可能な最小のものに上書きする。
-	dup2(oldfd, newfd);  // ファイルディスクリプターfd2を閉じてからfd1にコピーする。
+	dup(oldfd);
+	dup2(oldfd, newfd);
 	```
 - パイプの処理の流れ  
 	```c
