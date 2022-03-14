@@ -2,9 +2,8 @@
 
 Chris Brown 先生の講義を HandsOn形式で受講した時の学習メモです。  
 
-Indronil Banerjee  
-https://www.youtube.com/c/IndronilBanerjee  
 https://www.youtube.com/playlist?list=PLysdvSvCcUhbrU3HhGhfQVbhjnN9GXCq4  
+https://www.pluralsight.com/courses/linux-systems-programming  
 
 
 ## 第1章 Linux System Programming
