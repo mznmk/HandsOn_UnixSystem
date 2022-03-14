@@ -122,4 +122,3 @@ https://www.pluralsight.com/courses/linux-systems-programming
 		cat /tmp/demopipe コマンドを実行すると downstream が開く  
 		cat の待ち受けに出力が流れて表示される  
 
-
