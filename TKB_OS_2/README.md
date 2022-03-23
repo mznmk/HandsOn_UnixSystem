@@ -1,0 +1,28 @@
+# Tsukuba Operating System II 2020
+
+筑波大学／情報科学類 オペレーティングシステムII (2020年) の学習メモです。  
+
+http://www.coins.tsukuba.ac.jp/~yas/coins/os2-2020/  
+https://vimeo.com/channels/1707084  
+
+
+## 第1週 システムコール、プロセスとtask構造体
+
+[システムコール、プロセスとtask構造体](./01_SysCall_Process_Task/)  
+
+## 第2週 メモリ管理
+
+[メモリ管理](./02_Memory_Manage/)  
+
+## 第3週 デバイスドライバと割り込み処理、inb()とoutb()
+
+[デバイスドライバと割り込み処理、inb()とoutb()](./03_Device_Interrupt/)  
+
+## 第4週 時刻と時間の管理、プロセスのスケジューリング
+
+[時刻と時間の管理、プロセスのスケジューリング](./04_Time_Process/)  
+
+## 第5週 割り込みの後半部、ファイルシステム
+
+[割り込みの後半部、ファイルシステム](./05_Interrupt_FileSystem/)  
+
