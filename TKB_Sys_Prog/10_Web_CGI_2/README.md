@@ -20,6 +20,8 @@ https://vimeo.com/channels/1707084
 
 ## 第10週 Web CGI プログラミング(2)
 
+https://vimeo.com/565512487?embedded=false&source=video_title&owner=110451643  
+
 - < 補足 >  
 
 	- Coins での Web ページの作成と公開
@@ -27,6 +29,8 @@ https://vimeo.com/channels/1707084
 	- ユーザ apache  
 
 ### JavaScript
+
+https://vimeo.com/565512551?embedded=false&source=video_title&owner=110451643  
 
 - JavaScript  
 	[for.html](./for.html)  
@@ -50,6 +54,8 @@ https://vimeo.com/channels/1707084
 	
 ### スクリプト言語
 
+https://vimeo.com/565512621?embedded=false&source=video_title&owner=110451643  
+
 - < スクリプト言語の位置づけ >  
 
 - < インタプリタとスクリプト >  
@@ -71,6 +77,8 @@ https://vimeo.com/channels/1707084
 
 ### RubyによるCGI
 
+https://vimeo.com/565512682?embedded=false&source=video_title&owner=110451643  
+
 - RubyによるCGI  
 	第9週 `cgi-printarg.html` `cgi-printarg.cgi` と実行方法は同じ  
 	[cgi-printarg-ruby.html](./cgi-printarg-ruby.html)  
@@ -91,6 +99,8 @@ https://vimeo.com/channels/1707084
 
 ### 外部のプログラムの実行
 
+https://vimeo.com/565512786?embedded=false&source=video_title&owner=110451643  
+
 - < 外部のプログラムの実行(C言語) >  
 
 - < 外部のプログラムの実行(Ruby言語) >  
@@ -107,4 +117,8 @@ https://vimeo.com/channels/1707084
 
 - < Javaアプレット >  
 	http://www.coins.tsukuba.ac.jp/~syspro/2021/2021-06-23/java-applet.html  
+
+### 練習問題
+
+https://vimeo.com/565512863?embedded=false&source=video_title&owner=110451643  
 
