@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<META HTTP-EQUIV="content-type" CONTENT="text/html;charset=iso-2022-jp">
+	<TITLE> JavaScript による表示ページの切替え</TITLE>
+</head>
+<body>
+
+	<SCRIPT LANGUAGE="JavaScript">
+		function go(s,h,p)
+		{
+			location.href = s.value + "://" + h.value + p.value ;
+		}
+	</SCRIPT>
+
+	<FORM NAME="form1">
+	Scheme: <INPUT NAME="scheme" TYPE="text" VALUE="http"><BR>
+	Host: <INPUT NAME="host"   TYPE="text"><BR>
+	Path: <INPUT NAME="path"   TYPE="text" VALUE="/"><BR>
+	<INPUT TYPE="button" VALUE="go" onClick="go(form1.scheme,form1.host,form1.path)">
+	</FORM>
+
+</body>
+</html>
