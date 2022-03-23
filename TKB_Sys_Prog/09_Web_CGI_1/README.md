@@ -75,6 +75,8 @@ https://ubuntu.perlzemi.com/blog/20200610082714.html
 
 ### 補足
 
+https://vimeo.com/562635299?embedded=false&source=video_title&owner=110451643  
+
 - 補足  
 
 	- psコマンド  
@@ -92,6 +94,8 @@ https://ubuntu.perlzemi.com/blog/20200610082714.html
 ### 今日の重要な話
 
 ### CGIの考え方
+
+https://vimeo.com/562635373?embedded=false&source=video_title&owner=110451643  
 
 - < CGIの設定(Apache) >  
 
@@ -142,6 +146,8 @@ https://ubuntu.perlzemi.com/blog/20200610082714.html
 			```
 
 ### CGIとフォーム
+
+https://vimeo.com/562635417?embedded=false&source=video_title&owner=110451643  
 
 - < HTML記述例 >  
 
@@ -217,6 +223,8 @@ https://ubuntu.perlzemi.com/blog/20200610082714.html
 
 ### Apacheの機能
 
+https://vimeo.com/562635472?embedded=false&source=video_title&owner=110451643  
+
 - < アクセスログとエラーログ >  
 
 - < CGI プログラムを実行するプロセスの権限 >  
@@ -230,4 +238,8 @@ https://ubuntu.perlzemi.com/blog/20200610082714.html
 
 - < Webでのcookie >  
 	http://www.coins.tsukuba.ac.jp/~syspro/2021/2021-06-16/www-cookie.html
+
+### 練習問題
+
+https://vimeo.com/562635520?embedded=false&source=video_title&owner=110451643  
 
