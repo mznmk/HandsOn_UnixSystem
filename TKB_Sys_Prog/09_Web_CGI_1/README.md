@@ -62,7 +62,7 @@ https://ubuntu.perlzemi.com/blog/20200610082714.html
 	CGIモジュールを無効にして、Apacheを再起動します。  
 	再起動しないと無効に戻りませんので注意です。  
 	```sh
-	sudo a2disconf cgid
+	sudo a2dismod cgid
 	sudo systemctl restart apache2
 	```
 
@@ -98,6 +98,7 @@ https://ubuntu.perlzemi.com/blog/20200610082714.html
 - < cgi-hello.c >  
 
 	- cgi-hello.cプログラム全体  
+		[cgi-hello.c](./cgi-hello.c)  
 
 	- cgi-hello.cの端末からの実行  
 		`cgi-hello.c` をコンパイルして実行します。  
@@ -155,6 +156,7 @@ https://ubuntu.perlzemi.com/blog/20200610082714.html
 - cgi-printarg.c  
 
 	- シェルからのCGIプログラムの実行  
+		[cgi-printarg.c](./cgi-printarg.c)  
 		1. `cgi-printarg.c` をコンパイルして実行します。  
 			```sh
 			gcc cgi-printarg.c -o cgi-printarg.cgi
@@ -187,6 +189,7 @@ https://ubuntu.perlzemi.com/blog/20200610082714.html
 - < read_query_string() >  
 
 	- Webブラウザの表示例  
+		[cgi-printarg.html](./cgi-printarg.html)  
 		1. カレントディレクトリーにある `cgi-printarg.html` を `/var/www/html/` に配置します。  
 			```sh
 			sudo cp ./cgi-printarg.html /var/www/html/
