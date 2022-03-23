@@ -26,7 +26,6 @@ Ubuntu20.04 にはデフォルトで Apache2 がインストールされてお�
 	```sh
 	sudo systemctl stop apache2.service
 	```
-
 2. echo サーバーを 80番ポートで動かします。  
 	次回第7週に登場する [echo-server-nofork-fdopen.c](./echo-server-nofork-fdopen.c) を使います。80番ポートで待ち受けます。  
 	```sh
@@ -41,6 +40,8 @@ Ubuntu20.04 にはデフォルトで Apache2 がインストールされてお�
 ## 第6週 ネットワーク・プログラミング／クライアント側
 
 ### 今日の重要な話
+
+https://vimeo.com/551455897?embedded=false&source=video_title&owner=110451643  
 
 - < TA、教員、隣の人の活用 >
 
@@ -132,4 +133,8 @@ https://vimeo.com/551456502?embedded=false&source=video_title&owner=110451643
 		http://www.coins.tsukuba.ac.jp/~syspro/2021/2021-05-26/fdopen_sock.html	 
 	- marshaling/unmarshaling  
 		http://www.coins.tsukuba.ac.jp/~syspro/2021/2021-05-26/marshaling.html  
+
+### 練習問題
+
+https://vimeo.com/551456605?embedded=false&source=video_title&owner=110451643  
 
