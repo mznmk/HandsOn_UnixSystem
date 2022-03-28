@@ -3,24 +3,35 @@
 いろんなハンズオンに取り組みながら、Unix System Programming を学習しようという試みです。  
 
 
-## Tsukuba System Program
+## Tsukuba Computer Literacy 2018
 
-筑波大学／情報科学類 システムプログラム (2021年) の講義です。  
+筑波大学／情報科学類 １年 コンピュータリテラシ(2018年) の講義メモです。  
+http://www.coins.tsukuba.ac.jp/~yas/coins/literacy-2018/  
+
+[Tsukuba Computer Literacy 2018](./TKB_Comp_Lite/)  
+
+
+## Tsukuba System Program 2021
+
+筑波大学／情報科学類 ３年 システムプログラム (2021年) の講義メモです。  
 http://www.coins.tsukuba.ac.jp/~syspro/2021/  
 
-[Tsukuba System Program](./TKB_Sys_Prog/)  
+[Tsukuba System Program 2021](./TKB_Sys_Prog/)  
 
 
-## Tsukuba Operating System II
+## Tsukuba Operating System II 2021
 
-筑波大学／情報科学類 オペレーティングシステムII (2020年) の講義です。  
-http://www.coins.tsukuba.ac.jp/~yas/coins/os2-2020/  
+筑波大学／情報科学類 ３年 オペレーティングシステムII (2021年) の講義メモです。  
+http://www.coins.tsukuba.ac.jp/~yas/coins/os2-2021/  
 
+[Tsukuba Operating System II 2021](./TKB_OS_2/)  
 
-## Tsukuba Concurrency System
+## Tsukuba Concurrency System 2021
 
-筑波大学／システム情報工学研究群 並行システム(2021年) の講義メモです。  
+筑波大学院／システム情報工学研究群 並行システム(2021年) の講義メモです。  
 http://www.cs.tsukuba.ac.jp/~yas/cs/csys-2021/  
+
+[Tsukuba Concurrency System 2021](./TKB_Conc_Sys/)
 
 
 ## Linux System Programming with C
@@ -34,7 +45,7 @@ https://www.pluralsight.com/courses/linux-systems-programming
 
 ## C Socket Programming
 
-Udemy イメージでわかる！C言語ソケット通信プログラミング の講義メモです。  
+Udemy イメージでわかる！C言語ソケット通信プログラミング の学習メモです。  
 
 https://www.udemy.com/course/c-oxolcz/  
 
