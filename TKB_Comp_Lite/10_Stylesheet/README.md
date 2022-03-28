@@ -35,11 +35,14 @@ http://www.coins.tsukuba.ac.jp/~yas/coins/literacy-2018/2018-05-18/index.html
 
 - < ◆WWWページデザインの手順 >  
 
-- < ◆CSSクラスと&lt;DIV&gt;タグや&lt;SPAN&gt;タグ</A> >  
+- < ◆CSSクラスとDIVタグやSPANタグ >  
+	http://www.coins.tsukuba.ac.jp/~yas/coins/literacy-2018/2018-05-18/css-div-span.html  
 
-- < ◆CSSのセレクタ</A> >  
+- < ◆CSSのセレクタ >  
+	http://www.coins.tsukuba.ac.jp/~yas/coins/literacy-2018/2018-05-18/css-selector.html  
 
-- < ◆CSSの利用例</A> >  
+- < ◆CSSの利用例 >  
+	http://www.coins.tsukuba.ac.jp/~yas/coins/literacy-2018/2018-05-18/css-example.html  
 
 - < ◆HTML/CSSにおける16進数による色の指定 >  
 
