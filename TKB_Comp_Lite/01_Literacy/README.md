@@ -1,8 +1,9 @@
-# Tsukuba Computer Literacy 2018 #8
+# Tsukuba Computer Literacy 2018 #1
 
 筑波大学／情報科学類 コンピュータリテラシ(2018年) の学習メモです。  
 
 http://www.coins.tsukuba.ac.jp/~yas/coins/literacy-2018/  
+http://www.coins.tsukuba.ac.jp/~yas/coins/literacy-2018/2018-04-13/index.html  
 
 テキストを普通に読むだけだと目が滑ってしまい、頭に内容が入りにくかったので、タイトル・見出しをここに切り出して、頭を整理してからテキストを読みました。  
 サンプルコードを動かしながら、頭ではなく身体で理解することを意識しました。  
