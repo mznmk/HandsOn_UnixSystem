@@ -42,6 +42,7 @@ http://www.coins.tsukuba.ac.jp/~yas/coins/literacy-2018/2018-05-22/index.html
 - < ファイルの UID・GID 属性を変更する >  
 
 - < ◆ユーザ名とUID、グループ名とGIDの対応、属性の伝播 >  
+	http://www.coins.tsukuba.ac.jp/~yas/coins/literacy-2018/2018-05-22/uid-propagation.html  
 
 ### ■ファイルのモードの変更
 
