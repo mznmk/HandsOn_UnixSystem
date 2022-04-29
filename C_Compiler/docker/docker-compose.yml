@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  cc:
+    build: .
+    tty: true
+    volumes:
+      - ../:/home/user/cc
