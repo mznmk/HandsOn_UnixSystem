@@ -1,4 +1,6 @@
 #!/bin/bash
+
+# [ assert function ]
 assert()
 {
     expected="$1"
@@ -19,7 +21,10 @@ assert()
     fi
 }
 
+# [ test ]
+# step1
 assert 0 0
 assert 42 42
 
+# [ success ]
 echo OK
