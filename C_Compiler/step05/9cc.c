@@ -10,7 +10,7 @@
 //
 
 typedef enum {
-  TK_RESERVED,      // Keywords of punctuators
+  TK_RESERVED,      // Keywords or punctuators
   TK_NUM,           // Integer literals
   TK_EOF,           // End-of-file markers
 } TokenKind;
@@ -167,6 +167,7 @@ Node *expr();
 Node *mul();
 Node *primary();
 
+// expr = mul ("+" mul | "-" mul)*
 Node *expr() {
   Node *node = mul();
 
@@ -180,6 +181,7 @@ Node *expr() {
   }
 }
 
+// mul = primary ("*" primary | "/" primary)*
 Node *mul() {
   Node *node = primary();
 
@@ -193,6 +195,7 @@ Node *mul() {
   }
 }
 
+// primary = "(" expr ")" | num
 Node *primary() {
   if (consume('(')) {
     Node *node = expr();
