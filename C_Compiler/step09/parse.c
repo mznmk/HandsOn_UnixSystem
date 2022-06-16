@@ -29,16 +29,9 @@ Node *new_num(int val) {
   return node;
 }
 
-Node *new_lvar(char name) {
-  Node *node = new_node(ND_LVAR);
-  node->name = name;
-  return node;
-}
-
 // prototype declaration
 Node *stmt();
 Node *expr();
-Node *assign();
 Node *equality();
 Node *relational();
 Node *add();
@@ -68,22 +61,14 @@ Node *stmt() {
     return node;
   }
 
-  Node *node = new_unary(ND_EXPR_STMT, expr());
+  Node *node = expr();
   expect(";");
   return node;
 }
 
-// expr = assign
+// expr = equality
 Node *expr() {
-  return assign();
-}
-
-// assign = equality ("=" assign)?
-Node *assign() {
-  Node *node = equality();
-  if (consume("="))
-    node = new_binary(ND_ASSIGN, node, assign());
-  return node;
+  return equality();
 }
 
 // equality = relational ("==" relational | "!=" relational)*
@@ -156,7 +141,7 @@ Node *unary() {
   return primary();
 }
 
-// primary = "(" expr ")" | ident | num
+// primary = "(" expr ")" | num
 Node *primary() {
   if (consume("(")) {
     Node *node = expr();
@@ -164,9 +149,5 @@ Node *primary() {
     return node;
   }
 
-  Token *tok = consume_ident();
-  if (tok)
-    return new_lvar(*tok->str);
-  
   return new_num(expect_number());
 }

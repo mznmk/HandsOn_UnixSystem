@@ -56,9 +56,6 @@ assert 1 'return 1>=1;'
 assert 0 'return 1>=2;'
 # step11(9)
 assert 3 '1; 2; return 3;'
-# step9(10)
-assert 3 'a=3; return a;'
-assert 8 'a=3; z=5; return a+z;'
 
 # [ success ]
 echo OK

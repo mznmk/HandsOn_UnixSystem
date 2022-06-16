@@ -2,6 +2,7 @@
 
 低レイヤを知りたい人のためのCコンパイラ作成入門 のハンズオンです。  
 https://www.sigbus.info/compilerbook  
+https://github.com/rui314/chibicc/commits/reference?after=ce61154cf542e630bc3e40262fdacdf20bf91b90+69&branch=reference  
 
 Cコンパイラ作ってみる  
 https://www.youtube.com/playlist?list=PLp_EUEO9JJP08ApAdaTYKHsonrLyKzdvp  
@@ -63,7 +64,10 @@ https://www.youtube.com/playlist?list=PLp_EUEO9JJP08ApAdaTYKHsonrLyKzdvp
 
 ### 関数とローカル変数
 
-- ステップ9：1文字のローカル変数  
+※(サンプルコードの順番に合わせて順番を入れ替えています)   
+
+- ステップ11(9)：return文 
+- ステップ9(10)：1文字のローカル変数  
 	- スタック上の変数領域  
 	- トークナイザの変更  
 	- パーサの変更  
@@ -71,8 +75,7 @@ https://www.youtube.com/playlist?list=PLp_EUEO9JJP08ApAdaTYKHsonrLyKzdvp
 	- 任意のアドレスから値をロードする方法  
 	- コードジェネレータの変更  
 	- メイン関数の変更  
-- ステップ10：複数文字のローカル変数  
-- ステップ11：return文  
+- ステップ10(11)：複数文字のローカル変数  
 - 1973年のCコンパイラ  
 - ステップ12: 制御構文を足す  
 - ステップ13: ブロック  
