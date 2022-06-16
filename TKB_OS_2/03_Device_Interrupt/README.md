@@ -1,10 +1,9 @@
-# Tsukuba Operating System II 2020 #3
+# Tsukuba Operating System II 2021 #3
 
 筑波大学／情報科学類 オペレーティングシステムII (2020年) の学習メモです。  
 
-http://www.coins.tsukuba.ac.jp/~yas/coins/os2-2020/  
-http://www.coins.tsukuba.ac.jp/~yas/coins/os2-2020/2021-01-20/index.html  
-https://vimeo.com/channels/1707084  
+http://www.coins.tsukuba.ac.jp/~yas/coins/os2-2021/  
+https://vimeo.com/channels/1758392  
 
 テキストを普通に読むだけだと目が滑ってしまい、頭に内容が入りにくかったので、タイトル・見出しをここに切り出して、頭を整理してからテキストを読みました。  
 サンプルコードを動かしながら、頭ではなく身体で理解することを意識しました。  
